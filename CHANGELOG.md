@@ -7,26 +7,13 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ## [Unreleased]
 
 ## [1.7.1]
-### Uncategorized
-- decrement version to latest published 1.7.0
-- update changelog
-- format CHANGELOG.md
-- devDeps: webpack@2->3
-- Bump underscore and js-yaml
-- devDeps: Bump browserify-sign from 4.2.1 to 4.2.2 ([#7](https://github.com/MetaMask/number-to-bn/pull/7))
-- ci: Add GitHub Actions workflows
-- chore: add package publishConfig
-- deprecate nodejs <8.17, npm<6
-- Bump minimist from 0.2.2 to 0.2.4
-- version 1.7.1 - fix correctness bug
-- fork package as @metamask/number-to-bn
-
 ### Changed
-- fork as @metamask/number-to-bn
+- Update webpack from 2.1.0-beta.15 to 3.12.0
+- Rename package from number-to-bn to @metamask/number-to-bn
 
 ### Fixed
-- fix correctness
-  - Update bn.js to fix hex encoding bug for certain large numbers
+- Correctness bugfix: Update bn.js to fix hex encoding bug for certain large numbers
+- Deprecate nodejs <8.17, npm<6
 
 ## [1.7.0]
 ### Changed
