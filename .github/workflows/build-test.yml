@@ -18,7 +18,7 @@ jobs:
           node-version: ${{ matrix.node-version }}
           cache: 'npm'
       # Set global npm version for lockfile consistency
-      - run: npm i -g npm@6
+      - run: npm i -g npm@7
       - run: npm i
       - run: npm run build
       - name: Require clean working directory
