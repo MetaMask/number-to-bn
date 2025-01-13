@@ -25,8 +25,8 @@
     "url": "https://github.com/MetaMask/number-to-bn.git"
   },
   "engines": {
-    "npm": ">=7",
-    "node": ">=^14.21"
+    "npm": ">=6",
+    "node": "^14.21 || ^16.14 || ^18.13 || >=20.10"
   },
   "keywords": [
     "number",
